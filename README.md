@@ -1,34 +1,82 @@
-# 🧹 Data Cleaning Project (Python)
+# 🧹 Data Cleaning & Preprocessing (Python)
 
-## 📌 Overview
-This project focuses on cleaning and preprocessing raw data to improve data quality and prepare it for analysis.
+## 📌 Project Overview
 
-## 🛠 Tools Used
-- Python
-- Pandas
+This project focuses on cleaning and preprocessing raw datasets using Python. The goal is to transform messy data into a structured format suitable for analysis.
 
-## 📊 Key Tasks Performed
-- Handling missing values
-- Removing duplicate records
-- Standardizing data formats
-- Fixing inconsistent data entries
-- Data transformation
+---
 
-## 🔍 Techniques Used
-- fillna(), dropna()
-- drop_duplicates()
-- string operations
-- data type conversions
+## 🎯 Objectives
 
-## 📈 Outcome
-- Improved dataset quality
-- Prepared clean data for further analysis
-- Reduced inconsistencies and errors
+* Handle missing values
+* Remove duplicate records
+* Standardize data formats
+* Prepare dataset for analysis
 
-## 🚀 Skills Demonstrated
-- Data preprocessing
-- Data validation
-- Data transformation
+---
 
-## 📸 Sample Output
-(Add your screenshot here)
+## 🛠 Tools & Technologies
+
+* Python (Pandas, NumPy)
+* Jupyter Notebook
+
+---
+
+## 🧹 Data Cleaning Steps
+
+* Handled missing values using `dropna()` and `fillna()`
+* Removed duplicate rows using `drop_duplicates()`
+* Converted data types for consistency
+* Standardized column names and formats
+
+---
+
+## 📊 Before vs After Cleaning
+
+### Before Cleaning
+
+![Before](images/before_cleaning.png)
+
+### After Cleaning
+
+![After](images/After_cleaning.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+Data-Cleaning-EDA-Python/
+│
+├── notebook/
+│   └── data_cleaning.ipynb
+├── data/
+│   └── raw_data.csv
+├── images/
+│   └── cleaning1.png
+│   └── cleaning2.png
+├── README.md
+```
+
+---
+
+## 🚀 Outcome
+
+* Improved data quality and consistency
+* Prepared dataset for further analysis
+* Demonstrated strong data preprocessing skills
+
+---
+
+## 🔮 Future Improvements
+
+* Automate cleaning pipeline
+* Integrate with data visualization
+* Apply on large datasets
+
+---
+
+## 👨‍💻 Author
+
+**Irfan Shaik**
+Aspiring Data Analyst
